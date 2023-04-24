@@ -11,7 +11,7 @@ public class LIstsExample {
         ArrayList<Integer> list = new ArrayList(10);
         // <> 사이에 자료형 넣으면 제한 가능
         list.add(100);
-        list.add("INFP");
+
 
         for(int i = 0; i < list.size(); i++ ){
             System.out.println(list.get(i));
